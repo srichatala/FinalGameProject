@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2015
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Car Parking.CSharp.Plugins", "Car Parking.CSharp.Plugins.csproj", "{F20598CB-4CBC-E3FD-A96C-17FB2A169077}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Car Parking.CSharp", "Car Parking.CSharp.csproj", "{C4671561-2C27-D015-0B9E-23FB99CCEC75}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F20598CB-4CBC-E3FD-A96C-17FB2A169077}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F20598CB-4CBC-E3FD-A96C-17FB2A169077}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F20598CB-4CBC-E3FD-A96C-17FB2A169077}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F20598CB-4CBC-E3FD-A96C-17FB2A169077}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C4671561-2C27-D015-0B9E-23FB99CCEC75}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C4671561-2C27-D015-0B9E-23FB99CCEC75}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C4671561-2C27-D015-0B9E-23FB99CCEC75}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C4671561-2C27-D015-0B9E-23FB99CCEC75}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

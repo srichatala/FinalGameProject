@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class MenuController : MonoBehaviour {
+public class menucontroller : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
@@ -13,7 +13,19 @@ public class MenuController : MonoBehaviour {
 	
 	}
 
-    public void OnStartButton() {
-        Application.LoadLevel("Instructions");
+    public void OnStratButton(int sceneToChange) {
+        Application.LoadLevel(sceneToChange);  
+    }
+    public void OnPlayGameButton(int sceneToChange)
+    {
+        Application.LoadLevel(sceneToChange);
+    }
+    public void OnBackButton(int sceneToChange)
+    {
+        Application.LoadLevel(sceneToChange);
+    }
+    public void Exit()
+    {
+        Application.Quit();
     }
 }
